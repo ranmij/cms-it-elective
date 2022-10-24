@@ -1,0 +1,496 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IT ELECTIVE SYSTEM
+</name>
+</assembly>
+<members>
+<member name="T:IT_ELECTIVE_SYSTEM.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources._or">
+<summary>
+  Looks up a localized string similar to or.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.account">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.addStudentBtnText">
+<summary>
+  Looks up a localized string similar to Add Student.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.appName">
+<summary>
+  Looks up a localized string similar to COLLEGE MANAGEMENT SYSTEM.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.cap">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.connect2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.course">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.coursesText">
+<summary>
+  Looks up a localized string similar to Courses.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.dashboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.dashboardText">
+<summary>
+  Looks up a localized string similar to Dashboard.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.email">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.emailHint">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.failedLogInCaption">
+<summary>
+  Looks up a localized string similar to Invalid username or password..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.failedLogInText">
+<summary>
+  Looks up a localized string similar to Please try again..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.feesHint">
+<summary>
+  Looks up a localized string similar to Annual Fees.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.firstNameHint">
+<summary>
+  Looks up a localized string similar to First Name.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.ic_eye">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.ic_eye_crossed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.ic_user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.joinUsLabel">
+<summary>
+  Looks up a localized string similar to Join Us!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.lastNameHint">
+<summary>
+  Looks up a localized string similar to Last Name.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.log_out">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInEmptyFieldsCaption">
+<summary>
+  Looks up a localized string similar to Fields can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInEmptyFieldsText">
+<summary>
+  Looks up a localized string similar to Please provide a username and password..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInErrorCaption">
+<summary>
+  Looks up a localized string similar to Invalid username or password.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInErrorText">
+<summary>
+  Looks up a localized string similar to Please try again..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInPasswordEmptyCaption">
+<summary>
+  Looks up a localized string similar to Password can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInPasswordEmptyText">
+<summary>
+  Looks up a localized string similar to Please provide a password..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInText">
+<summary>
+  Looks up a localized string similar to LOG IN.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInUsernameEmptyCaption">
+<summary>
+  Looks up a localized string similar to Username can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logInUsernameEmptyText">
+<summary>
+  Looks up a localized string similar to Please provide a username..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.logOutText">
+<summary>
+  Looks up a localized string similar to Log Out.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.menu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.menuLabelText">
+<summary>
+  Looks up a localized string similar to Menu.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.nextBtn">
+<summary>
+  Looks up a localized string similar to Next.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.passwordHideText">
+<summary>
+  Looks up a localized string similar to •.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.passwordHint">
+<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.phoneHint">
+<summary>
+  Looks up a localized string similar to Phone Number.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.profileText">
+<summary>
+  Looks up a localized string similar to Profile.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.rememberMeText">
+<summary>
+  Looks up a localized string similar to Remember me.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.searchBtnHint">
+<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpEmailEmptyCaption">
+<summary>
+  Looks up a localized string similar to Email can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpEmailEmptyText">
+<summary>
+  Looks up a localized string similar to Please provide an email..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpFirstNameEmptyCaption">
+<summary>
+  Looks up a localized string similar to First Name can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpFirstNameEmptyText">
+<summary>
+  Looks up a localized string similar to Please provide a first name..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpLastNameEmptyCaption">
+<summary>
+  Looks up a localized string similar to Last Name can&apos;t be empty!.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpLastNameEmptyText">
+<summary>
+  Looks up a localized string similar to Please provide a last name..
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.signUpText">
+<summary>
+  Looks up a localized string similar to SIGN UP.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.students">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.studentsText">
+<summary>
+  Looks up a localized string similar to Students.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.teacher">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.teachersText">
+<summary>
+  Looks up a localized string similar to Teachers.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.userNameHint">
+<summary>
+  Looks up a localized string similar to Username.
+</summary>
+</member>
+<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.wave">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.coursesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.departmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.rolesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.studentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.teachersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.usersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.current_userTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateAll(IT_ELECTIVE_SYSTEM.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
