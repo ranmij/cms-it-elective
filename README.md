@@ -18,6 +18,6 @@ Open your Visual Studio click the `Open project or solution` then browse the fol
 - [ ] There are some panels that I have to fix but I don't have time.
 - [x] I've already implemented the database but there are still missing columns.
 - [x] The app will work even though it is still in development.
-#CONTACT ME
+# CONTACT ME
 @github/ranmij support me or let's collab on github
 @facebook/its.my.username.xd facebook
