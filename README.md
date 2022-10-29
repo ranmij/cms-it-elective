@@ -14,9 +14,10 @@ Open your Visual Studio click the `Open project or solution` then browse the fol
 - GUNA UI
 - BCrypt for password security
 # Things that I haven't implemented yet
-- [] Some buttons are not still not available.
-- [] There are some panels that I have to fix but I don't have time.
+- [ ] Some buttons are not still not available.
+- [ ] There are some panels that I have to fix but I don't have time.
 - [x] I've already implemented the database but there are still missing columns.
 - [x] The app will work even though it is still in development.
+#CONTACT ME
 @github/ranmij support me or let's collab on github
 @facebook/its.my.username.xd facebook
