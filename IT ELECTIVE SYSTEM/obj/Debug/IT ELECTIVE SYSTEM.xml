@@ -287,19 +287,9 @@ IT ELECTIVE SYSTEM
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.teachersText">
-<summary>
-  Looks up a localized string similar to Teachers.
-</summary>
-</member>
 <member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.user">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.userNameHint">
-<summary>
-  Looks up a localized string similar to Username.
 </summary>
 </member>
 <member name="P:IT_ELECTIVE_SYSTEM.My.Resources.Resources.wave">
@@ -307,119 +297,29 @@ IT ELECTIVE SYSTEM
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1">
-<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.coursesRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.departmentsRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.rolesRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.studentsRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.teachersRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.usersRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1.current_userRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
 <member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet">
 <summary>
 Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.coursesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.departmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.rolesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.studentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
 </summary>
 </member>
 <member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.teachersDataTable">
@@ -427,14 +327,74 @@ Represents a strongly typed in-memory cache of data.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.coursesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.departmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.rolesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.studentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
 <member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.teachersRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.coursesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.departmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.rolesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.studentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSet.teachersRowChangeEvent">
 <summary>
 Row event argument class
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSetTableAdapters.coursesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSetTableAdapters.departmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSetTableAdapters.rolesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSetTableAdapters.studentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:IT_ELECTIVE_SYSTEM.cmsdbDataSetTableAdapters.teachersTableAdapter">
@@ -482,80 +442,209 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.coursesTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.OpenConnection(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ To open the connection
+ </summary>
+ <param name="connection">SqlConnection - The instance that we will open</param>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.departmentsTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.hasLoggedIn(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ Check if the user is currently logged in
+ </summary>
+ <param name="connection"></param>
+ <returns>True if the user has previously logged in otherwise false</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.rolesTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.currentUser(System.Data.SqlClient.SqlConnection,System.Int32)">
+ <summary>
+ Insert the current user so that the user doesn't need to log in when the app starts again.
+ This should be in local sqlite but again, i am too exhausted to code it, maybe next time when I developed another system
+ </summary>
+ <param name="connection">sqlconnection</param>
+ <param name="user_id">the user id of the user</param>
+ <returns>True if the current user is inserted otherwise false</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.studentsTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.logIn(System.Data.SqlClient.SqlConnection,System.String,System.String)">
+ <summary>
+ Pefrom all the database interaction when the user logs in.
+ In addition to that, the code written here is bad practice.
+ This should be written in async but fvck I don't want to hahaah.
+ It works anyway lol
+ </summary>
+ <param name="connection"></param>
+ <param name="username">Username of the user</param>
+ <param name="password">Password of the user</param>
+ <returns>True if the user has logged in otherwise false</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.teachersTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.validString(System.String)">
+ <summary>
+ For string validations
+ </summary>
+ <param name="str">TextBox.Text - the string to be checked</param>
+ <returns>Valid string</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.usersTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.signUp(System.Data.SqlClient.SqlConnection,System.String[])">
+ <summary>
+ For the sign up action
+ </summary>
+ <param name="connection"></param>
+ <param name="values">These are the textboxes values</param>
+ <returns>True if the user successfully signed up otherwise false</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.current_userTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.logOut(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ When the user signs up
+ </summary>
+ <param name="connection"></param>
+ <returns>True if the user has successfully logged out otherwise false</returns>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager">
-<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.getUser(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ Use to get all the info of the user
+ </summary>
+ <param name="connection"></param>
+ <returns>Array of objects that the sql operation retrieve</returns>
 </member>
-<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Update rows in top-down order.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.getCount(System.Data.SqlClient.SqlConnection)">
+ <summary>
+ Use to get how many entries do we have in the tables
+ </summary>
+ <param name="connection"></param>
+ <returns>Array of objects containing the count of the entries</returns>
 </member>
-<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Insert rows in top-down order.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.UserModel.getTeacher(System.Data.SqlClient.SqlConnection,System.Int32)">
+ <summary>
+ Get the teacher information
+ </summary>
+ <param name="connection"></param>
+ <param name="id">id of the teacher</param>
+ <returns></returns>
 </member>
-<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(IT_ELECTIVE_SYSTEM.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Delete rows in bottom-up order.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.mainForm_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the system triggered this form then the load will be triggered too
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">EventArgs</param>
 </member>
-<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.rollShadows(Guna.UI2.WinForms.Guna2GradientTileButton)">
+ <summary>
+ This is the transition of the side panel
+ </summary>
+ <param name="obj">Guna2GradientTileButton - When the menu and close button is clicked</param>
 </member>
-<member name="M:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateAll(IT_ELECTIVE_SYSTEM.DataSet1)">
-<summary>
-Update all changes to the dataset.
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.changeShadowColor(Guna.UI2.WinForms.Guna2ImageButton,System.Drawing.Color)">
+ <summary>
+ To change the color of the image button when the sidePanel is opened
+ </summary>
+ <param name="obj">Guna2ImageButton - The target icon to change the color</param>
+ <param name="color">Color - Color that we will use</param>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
-<summary>
-Update Order Option
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.onMouseHoverChangeState(Guna.UI2.WinForms.Guna2GradientTileButton,System.Windows.Forms.Timer,Guna.UI2.WinForms.Guna2ImageButton,System.Boolean)">
+ <summary>
+ This is for the hover state of the icons, to transition the gradienttilebutton.
+ Well that shouldn't be a gradienttilebutton since it doesnt function as  button but I'm too exhausted to change it :>
+ </summary>
+ <param name="obj">Guna2GradientTileButton - The target shadow we want to change</param>
+ <param name="ticks">System.Windows.Form.Timer - The timer we will start when the icon is hovered</param>
+ <param name="icon">Guna2ImageButton - The icon that the user hovers</param>
+ <param name="hover">Boolean - If the mouse is still on the icon or leaving</param>
 </member>
-<member name="T:IT_ELECTIVE_SYSTEM.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
-<summary>
-Used to sort self-referenced table's rows
-</summary>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.closePanel">
+ <summary>
+ This function closes the panels so that we can only view one panel at a time.
+ </summary>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.OnCustomeTimerTick(System.Object,System.EventArgs)">
+ <summary>
+ This is a custom tick events that I created, this consumed lots of time to figure out how to implement it
+ turns out creating a custom procedure is allowed.
+ </summary>
+ <param name="sender">Mainform.Timer - Timer that will be send by the system when ticks triggered</param>
+ <param name="e">System.EventArgs - The event args e.g tick</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.CustomClickAction(System.Object,System.EventArgs)">
+ <summary>
+ A custom click for buttons in the form, this is only applied to closing and opening events
+ </summary>
+ <param name="sender">Object - Any control that will be clicked apart from the icons that open a panel </param>
+ <param name="e">System.EventArgs - The event that will be triggered</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.CustomOnClick(System.Object,System.EventArgs)">
+ <summary>
+ The separate click events for some controls that won't affect the other click events
+ </summary>
+ <param name="sender">Object - These are the controls that will be clicked</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.CustomHoverEffects(System.Object,System.EventArgs)">
+ <summary>
+ This for the hover events transition to animate the Controls in the current window
+ </summary>
+ <param name="sender">Control</param>
+ <param name="e">System.EventArgs</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.CustomLeaveEffects(System.Object,System.EventArgs)">
+ <summary>
+ This function will be triggered when the mouse leave a certain control in the UI
+ </summary>
+ <param name="sender">Control</param>
+ <param name="e">System.EventArgs</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.MainForm.tTeachersGridView_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Will be trigged when a row or a cell is clicked in the teacher's data grid view panel
+ </summary>
+ <param name="sender">DataGridView - The data grid view</param>
+ <param name="e">DataGridViewCellEventArgs - The cell events when clicked</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.LoginForm.hidePassword(Guna.UI2.WinForms.Guna2TextBox)">
+ <summary>
+ This is use to change the icon of the password text box
+ </summary>
+ <param name="textBox">Guna2TextBox - Target text box to work on</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.LoginForm.OnCustomClickEvents(System.Object,System.EventArgs)">
+ <summary>
+ This is for the click events in log in form
+ </summary>
+ <param name="sender">Object - Some control that will be clicked</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.LoginForm.logInBtn_Click(System.Object,System.EventArgs)">
+ <summary>
+ I separated this click event because the function is too lengthy
+ </summary>
+ <param name="sender">A button</param>
+ <param name="e">Click event</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.LoginForm.CustomOnMouseHover(System.Object,System.EventArgs)">
+ <summary>
+ For all the mouse hover in log in form
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">Events</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.LoginForm.CustomOnMouseLeave(System.Object,System.EventArgs)">
+ <summary>
+ For the mouse leave events
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.SplashScreen.splashScreen_Load(System.Object,System.EventArgs)">
+ <summary>
+ Performs all the neccessary checks, initialize all the things, and start timers
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:IT_ELECTIVE_SYSTEM.SplashScreen.LoadTimer_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Tick event of the timer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
 </member>
 </members>
 </doc>

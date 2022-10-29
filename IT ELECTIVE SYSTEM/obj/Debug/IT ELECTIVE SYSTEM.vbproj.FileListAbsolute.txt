@@ -35,7 +35,6 @@ D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\IT ELEC
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\IT ELECTIVE SYSTEM.pdb
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\IT ELECTIVE SYSTEM.xml
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\BCrypt.Net-Next.dll
-D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\Guna.Charts.WinForms.dll
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\Guna.UI2.dll
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\System.Buffers.dll
 D:\Applications\VS\projects\cms-it-elective\IT ELECTIVE SYSTEM\bin\Debug\System.Memory.dll

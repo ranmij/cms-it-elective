@@ -1,11 +1,14 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Security.Authentication.ExtendedProtection
 Imports Guna.UI2.WinForms
 
 Public Class LoginForm
-    Dim isHidden As Boolean = False
-    Private _userModel As UserModel = New UserModel()
+    Dim isHidden As Boolean = False                     ' State if we are currently hiding the password
+    Private _userModel As UserModel = New UserModel()   ' For database transactions
 
+    ''' <summary>
+    ''' This is use to change the icon of the password text box
+    ''' </summary>
+    ''' <param name="textBox">Guna2TextBox - Target text box to work on</param>
     Private Sub hidePassword(textBox As Guna2TextBox)
         If isHidden Then
             isHidden = False
@@ -18,42 +21,36 @@ Public Class LoginForm
         End If
     End Sub
 
-    Private Sub loginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Initialization of texts and other values
-    End Sub
-
-    Private Sub password_IconRightClick(sender As Object, e As EventArgs) Handles passwordLTextBox.IconRightClick
-        hidePassword(passwordLTextBox)
-    End Sub
-
-    Private Sub signUpBtn_Click(sender As Object, e As EventArgs) Handles signUpBtn.Click
-        If Not signupPanelF.Visible Then
-            signupPanelF.Visible = True
-        Else
+#Region "ClickEvents"
+    ''' <summary>
+    ''' This is for the click events in log in form
+    ''' </summary>
+    ''' <param name="sender">Object - Some control that will be clicked</param>
+    ''' <param name="e">EventArgs</param>
+    Private Sub OnCustomClickEvents(sender As Object, e As EventArgs) Handles passwordLTextBox.IconRightClick, signUpBtn.Click, passwordSTextBox.IconRightClick, closeSPanelS.Click,
+        closeSPanelF.Click, closeLogInForm.Click, signUpNextBtn.Click
+        If sender.Equals(passwordLTextBox) Then
+            hidePassword(passwordLTextBox)
+        ElseIf sender.Equals(signUpBtn) Then
+            If Not signupPanelF.Visible Then
+                signupPanelF.Visible = True
+            Else
+                signupPanelF.Visible = False
+            End If
+        ElseIf sender.Equals(passwordSTextBox) Then
+            hidePassword(passwordSTextBox)
+        ElseIf sender.Equals(closeSPanelS) Then
+            signupPanelS.Visible = False
+        ElseIf sender.Equals(closeSPanelF) Then
             signupPanelF.Visible = False
+        ElseIf sender.Equals(closeLogInForm) Then
+            Me.Close()
+            SplashScreen.Close()
+        ElseIf sender.Equals(signUpNextBtn) Then
+            signupPanelS.Visible = True
         End If
     End Sub
-
-    Private Sub signUpPassword_IconRightClick(sender As Object, e As EventArgs) Handles passwordSTextBox.IconRightClick
-        hidePassword(passwordSTextBox)
-    End Sub
-
-    Private Sub closeSPanelS_Click(sender As Object, e As EventArgs) Handles closeSPanelS.Click
-        signupPanelS.Visible = False
-    End Sub
-
-    Private Sub closeSPanelF_Click(sender As Object, e As EventArgs) Handles closeSPanelF.Click
-        signupPanelF.Visible = False
-    End Sub
-
-    Private Sub closeLogInForm_Click(sender As Object, e As EventArgs) Handles closeLogInForm.Click
-        Me.Close()
-    End Sub
-
-
-    Private Sub signUpNextBtn_Click(sender As Object, e As EventArgs) Handles signUpNextBtn.Click
-        signupPanelS.Visible = True
-    End Sub
+#End Region
 
     ' TO DO FIX THIS STRING LITTERALS
     Private Sub signUpUser_Click(sender As Object, e As EventArgs) Handles signUpUser.Click
@@ -87,6 +84,11 @@ Public Class LoginForm
         _connection.Close()
     End Sub
 
+    ''' <summary>
+    ''' I separated this click event because the function is too lengthy
+    ''' </summary>
+    ''' <param name="sender">A button</param>
+    ''' <param name="e">Click event</param>
     Private Sub logInBtn_Click(sender As Object, e As EventArgs) Handles logInBtn.Click
         Dim _connection As SqlConnection = New SqlConnection(UserModel.CONNECTIONS_STRING)
         _userModel.OpenConnection(_connection)
@@ -120,11 +122,21 @@ Public Class LoginForm
     End Sub
 
 #Region "MouseEvents"
+    ''' <summary>
+    ''' For all the mouse hover in log in form
+    ''' </summary>
+    ''' <param name="sender">Object</param>
+    ''' <param name="e">Events</param>
     Private Sub CustomOnMouseHover(sender As Object, e As EventArgs) Handles closeLogInForm.MouseHover, closeLogInForm.MouseHover, closeSPanelS.MouseHover, closeSPanelF.MouseHover
         TryCast(sender, Guna2ImageButton).BackColor = Color.Red
     End Sub
 
-    Private Sub CustomOnMouseLeave(sender As Object, E As EventArgs) Handles closeLogInForm.MouseLeave, closeSPanelS.MouseLeave, closeSPanelF.MouseLeave
+    ''' <summary>
+    ''' For the mouse leave events
+    ''' </summary>
+    ''' <param name="sender">Object</param>
+    ''' <param name="e">EventArgs</param>
+    Private Sub CustomOnMouseLeave(sender As Object, e As EventArgs) Handles closeLogInForm.MouseLeave, closeSPanelS.MouseLeave, closeSPanelF.MouseLeave
         TryCast(sender, Guna2ImageButton).BackColor = Color.Transparent
     End Sub
 #End Region

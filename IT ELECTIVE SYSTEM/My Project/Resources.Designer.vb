@@ -553,30 +553,12 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Teachers.
-        '''</summary>
-        Friend ReadOnly Property teachersText() As String
-            Get
-                Return ResourceManager.GetString("teachersText", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property user() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("user", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized string similar to Username.
-        '''</summary>
-        Friend ReadOnly Property userNameHint() As String
-            Get
-                Return ResourceManager.GetString("userNameHint", resourceCulture)
             End Get
         End Property
         
